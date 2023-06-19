@@ -1,3 +1,31 @@
+# Система учета и управления деятельностью персонала на предприятии.
+Основные функции <br>
+Создание отделов и должностей, регистрация сотрудников, постановка задач сотрудникам, учет рабочего времени, расчет зп, статистика, оценка эффективности 
+
+## Установка
+
+Шаги по установке и настройке проекта. <br>
+Проект был написан на UBUNTU 22.04. <br>
+Для того чтобы проект заработал на Windows требуется скачать и распаковать архив с проектом, установить PHP и в файле php.ini раскоментировать строчки, где <br>
+#;extension=pdo_mysql<br>
+#;extension=openssl<br>
+Также установить open server и в файле .env поменять на свои данные.<br>
+написать php artisan migrate:fresh --seed <br>
+php artisan serve
+
+## Скриншоты
+
+В этом разделе приведены скриншоты работы программы.
+
+![Страница сотрудника](https://github.com/RodionSverdlovAl/HRM-System_Laravel/blob/master/Screenshots/%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%20%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D0%BA%D0%B0.jpg)
+_Страница профиля сотрудника._
+
+![Страница бренда 2 часть](https://github.com/RodionSverdlovAl/HRM-System_Laravel/blob/master/Screenshots/%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%20%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D0%B8%20%D0%B7%D0%B0%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BD%D1%8B%D1%85%20%D0%BF%D0%BB%D0%B0%D1%82%20%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D0%BA%D0%B0%D0%BC.jpg)
+_Страница зарплат._
+
+![Структура БД](https://github.com/RodionSverdlovAl/HRM-System_Laravel/blob/master/Screenshots/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%91%D0%94.jpg)
+<br>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
